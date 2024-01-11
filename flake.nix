@@ -1,5 +1,5 @@
 {
-  description = "Khue's macOS setup";
+  description = "Hoan's macOS setup";
 
   inputs = {
     nixpkgs = {

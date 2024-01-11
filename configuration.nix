@@ -4,45 +4,11 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    aria
-    bat
-    cargo
-    colima
-    curl
-    direnv
-    docker
-    fd
-    fzf
-    gh
-    git
-    gnupg
-    go
-    jq
-    k9s
-    kubectl
-    kubectl-tree
-    kubectx
-    kubernetes-helm
-    kustomize
-    mosh
-    neovim
-    nnn
-    nodePackages.npm
-    nodePackages.yarn
-    nodejs
-    pinentry
-    rbw
-    ripgrep
-    rust-analyzer
-    tmux
-    tree
-    unzip
-    watch
-    zoxide
-
-    (pass.withExtensions (ext: with ext; [
-      pass-otp
-    ]))
+    _1password-gui
+    ansible
+    # (pass.withExtensions (ext: with ext; [
+    #   pass-otp
+    # ]))
   ];
 
   environment.systemPath = [
@@ -68,13 +34,10 @@
       { name = "homebrew/cask"; }
     ];
     brews = [
-      # "foobar"
+      m1-terraform-provider-helper
     ];
-    casks = [
-      "alacritty" # TODO https://github.com/neovim/neovim/issues/3344
-      "kitty"
-      "utm"
-      "zerotier-one"
+
+      notion
     ];
   };
 
