@@ -36,9 +36,6 @@
     brews = [
       m1-terraform-provider-helper
     ];
-
-      notion
-    ];
   };
 
   system.defaults = {
