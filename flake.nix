@@ -17,7 +17,7 @@
 
   outputs = { self, nixpkgs, darwin, home-manager }: {
     darwinConfigurations = {
-      "MacBookAir" = darwin.lib.darwinSystem {
+      "hoan-mac-vm" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./configuration.nix
@@ -26,15 +26,15 @@
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
-      "SDL-C715CYXQ92" = darwin.lib.darwinSystem {
-        system = "aarch64-darwin";
-        modules = [
-          ./configuration.nix
-          home-manager.darwinModules.home-manager
-          ./home/work.nix
-        ];
-        inputs = { inherit nixpkgs darwin home-manager; };
-      };
+      # "SDL-C715CYXQ92" = darwin.lib.darwinSystem {
+      #   system = "aarch64-darwin";
+      #   modules = [
+      #     ./configuration.nix
+      #     home-manager.darwinModules.home-manager
+      #     ./home/work.nix
+      #   ];
+      #   inputs = { inherit nixpkgs darwin home-manager; };
+      # };
     };
   };
 }
