@@ -10,7 +10,7 @@
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
     # _1password-gui
-    ansible
+    k9s
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
     # ]))
