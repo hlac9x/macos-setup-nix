@@ -34,7 +34,7 @@
       { name = "homebrew/cask"; }
     ];
     brews = [
-      m1-terraform-provider-helper
+      # m1-terraform-provider-helper
     ];
   };
 
