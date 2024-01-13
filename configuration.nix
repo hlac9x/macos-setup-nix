@@ -70,6 +70,7 @@
     # ];
     brews = [
       "azure-cli"
+      "visual-studio-code"
       # m1-terraform-provider-helper
     ];
   };

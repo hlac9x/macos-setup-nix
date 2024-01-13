@@ -10,35 +10,34 @@ in
   homebrew = {
     casks = [
       "_1password"
-      anydesk
-      bartender
-      colima
-      evkey
-      istat-menus
-      keka
-      kitty
-      kodi
-      lens
-      logi-options-plus
-      microsoft-edge
-      microsoft-office
-      monitorcontrol
-      onedrive
-      pyyaml
-      rectangle
-      remote-desktop-manager
-      shottr
-      slack
-      ssm-session-manager-plugin
-      surfshark
-      tailscale
-      telegram-desktop
-      upwork
-      visual-studio-code
-      vlc
-      whatsapp
-      zalo
-      zoom
+      "anydesk"
+      "bartender"
+      "colima"
+      "evkey"
+      "istat-menus"
+      "keka"
+      "kitty"
+      "kodi"
+      "lens"
+      "logi-options-plus"
+      "microsoft-edge"
+      "microsoft-office"
+      "monitorcontrol"
+      "onedrive"
+      "pyyaml"
+      "rectangle"
+      "remote-desktop-manager"
+      "shottr"
+      "slack"
+      "ssm-session-manager-plugin"
+      "surfshark"
+      "tailscale"
+      "telegram-desktop"
+      "upwork"
+      "vlc"
+      "whatsapp"
+      "zalo"
+      "zoom"
     ];
     masApps = {
       # Need to be signed into the Mac App Store
