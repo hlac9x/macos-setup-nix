@@ -22,7 +22,7 @@ default: build
 		&& git config status.showUntrackedFiles no \
 		&& git remote add origin https://github.com/hoanlac9/dotfiles \
 		&& git pull origin main \
-		&& git remote set-url origin git@github.com:hoanlac9/dotfiles
+		&& git remote set-url origin https://github.com/hoanlac9/dotfiles
 
 build: /nix /run/current-system/sw/bin/darwin-rebuild /opt/homebrew/bin/brew ~/.git
 	/run/current-system/sw/bin/nix --experimental-features 'nix-command flakes' build ./\#darwinConfigurations.$(shell hostname -s).system
