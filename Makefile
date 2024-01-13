@@ -30,3 +30,6 @@ build: /nix /run/current-system/sw/bin/darwin-rebuild /opt/homebrew/bin/brew ~/.
 
 update:
 	nix flake update
+
+setting:
+	ln -s ~/.config/iterm2/mac.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/
