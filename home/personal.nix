@@ -55,8 +55,8 @@ in
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
       home.packages = with pkgs; [
-        "anydesk"
-        "upwork"       
+        pkgs.anydesk
+        pkgs.upwork       
       ];
     };
   };
