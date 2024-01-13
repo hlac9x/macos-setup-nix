@@ -24,8 +24,8 @@ in
       # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
       # home.file.".config/kitty/kitty.d/macos.conf".text = builtins.readFile ../files/kitty.conf;
       home.packages = with pkgs; [
-        _1password-gui
-        bartender
+        pkgs._1password-gui
+        pkgs.bartender
         iterm2
         keka
         kitty
