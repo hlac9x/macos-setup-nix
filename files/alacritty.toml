@@ -1,16 +1,19 @@
-[cursor]
-style = "blinking"
-
 [font]
 size = 14.0
 
 [font.normal]
-family = "FiraCode Nerd Font Mono"
+family = "MesloLGS-NF-Regular"
 style = "Regular"
+
+# Values for `decorations`:
+#     - full: Borders and title bar
+#     - none: Neither borders nor title bar
+#     - buttonless: Title bar, transparent background and title bar buttons
+#     - transparent: Title bar, transparent background, but no title bar buttons
 
 [window]
 startup_mode = "Windowed"
-decorations = "none"
+decorations = "transparent"
 option_as_alt = "OnlyLeft"
 
 [colors.normal]
