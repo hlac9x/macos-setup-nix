@@ -12,6 +12,7 @@
     argocd
     awscli2
     bat
+    colima
     docker
     eksctl
     go
@@ -55,7 +56,7 @@
     fonts = [
       (pkgs.nerdfonts.override {
         fonts = [
-          "FiraCode"
+          "meslo-lgs-nf"
         ];
       })
     ];
@@ -65,13 +66,11 @@
   homebrew = {
     enable = true;
     onActivation.cleanup = "zap";
-    # taps = [
-    #   { name = "homebrew/cask"; }
-    # ];
     brews = [
       "azure-cli"
+      "m1-terraform-provider-helper"
+      "pyyaml"
       "visual-studio-code"
-      # m1-terraform-provider-helper
     ];
   };
 

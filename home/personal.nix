@@ -9,22 +9,19 @@ in
 
   homebrew = {
     casks = [
-      "_1password"
-      "anydesk"
+      "1password"
       "bartender"
-      "colima"
       "evkey"
       "istat-menus"
+      "iterm2"
       "keka"
       "kitty"
       "kodi"
       "lens"
       "logi-options-plus"
       "microsoft-edge"
-      "microsoft-office"
       "monitorcontrol"
       "onedrive"
-      "pyyaml"
       "rectangle"
       "remote-desktop-manager"
       "shottr"
@@ -57,9 +54,10 @@ in
     users.${username} = { pkgs, lib, ... }: {
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
-      # home.packages = with pkgs; [
-
-      # ];
+      home.packages = with pkgs; [
+        "anydesk"
+        "upwork"       
+      ];
     };
   };
 }
