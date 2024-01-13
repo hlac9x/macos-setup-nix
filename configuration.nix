@@ -67,13 +67,16 @@
   homebrew = {
     enable = true;
     onActivation.cleanup = "zap";
+    taps = [
+      { name = "kreuzwerker/taps"; }
+    ];
     brews = [
       "azure-cli"
-      "kreuzwerker/taps/m1-terraform-provider-helper"
+      "m1-terraform-provider-helper"
       "pyyaml"
-      "ssm-session-manager-plugin"
     ];
     casks = [
+      "session-manager-plugin"
       "visual-studio-code"
     ];
   };
