@@ -69,7 +69,7 @@
     #   { name = "homebrew/cask"; }
     # ];
     brews = [
-      azure-cli
+      "azure-cli"
       # m1-terraform-provider-helper
     ];
   };
