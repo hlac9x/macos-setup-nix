@@ -2,7 +2,7 @@
 size = 14.0
 
 [font.normal]
-family = "MesloLGS NF"
+family = "Menlo"
 style = "Regular"
 
 # Values for `decorations`:
