@@ -42,6 +42,41 @@
     # tree
     # virtualenv
     # vscode
+    aria
+    bat
+    cargo
+    colima
+    curl
+    direnv
+    docker
+    fd
+    fzf
+    gh
+    git
+    gnupg
+    go
+    jq
+    k9s
+    kubectl
+    kubectl-tree
+    kubectx
+    kubernetes-helm
+    kustomize
+    mosh
+    neovim
+    nnn
+    nodePackages.npm
+    nodePackages.yarn
+    nodejs
+    pinentry
+    rbw
+    ripgrep
+    rust-analyzer
+    tmux
+    tree
+    unzip
+    watch
+    zoxide
     direnv
     zoxide
 
