@@ -1,11 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  # Nix configurations
-  nixpkgs.config = {
-    allowUnfree = true;
-  };
-
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
@@ -145,6 +140,9 @@
         "@admin"
       ];
     };
+    config = {
+      allowUnfree = true;
+    }
   };
 
   # Create /etc/zshrc that loads the nix-darwin environment.
