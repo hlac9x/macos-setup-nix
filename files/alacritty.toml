@@ -2,7 +2,7 @@
 size = 14.0
 
 [font.normal]
-family = "MesloLGS"
+family = "MesloLGS NF"
 style = "Regular"
 
 # Values for `decorations`:
@@ -13,7 +13,7 @@ style = "Regular"
 
 [window]
 startup_mode = "Windowed"
-decorations = "buttonless"
+decorations = "full"
 option_as_alt = "OnlyLeft"
 
 [colors.normal]
