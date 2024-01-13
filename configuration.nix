@@ -50,7 +50,7 @@
   fonts = {
     fontDir.enable = true;
     fonts = [
-      meslo-lgs-nf
+      pkgs.meslo-lgs-nf
       # (pkgs.nerdfonts.override {
       #   fonts = [
       #     "FiraCode"
