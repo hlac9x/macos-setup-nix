@@ -45,15 +45,15 @@ in
       home.stateVersion = "23.05";
       programs.home-manager.enable = true;
       home.packages = with pkgs; [
-        pkgs._1password-gui
-        pkgs.bartender
-        pkgs.iterm2
-        pkgs.keka
-        pkgs.kitty
-        pkgs.monitorcontrol
-        pkgs.rectangle
-        pkgs.slack
-        pkgs.tailscale
+        _1password-gui
+        bartender
+        iterm2
+        keka
+        kitty
+        monitorcontrol
+        rectangle
+        slack
+        tailscale
       ];
     };
   };

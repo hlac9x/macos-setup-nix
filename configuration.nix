@@ -18,7 +18,7 @@
     pkgs.docker-buildx
     pkgs.docker-credential-helpers
     pkgs.eksctl
-    pkgs.fzf-zsh
+    pkgs.fzf
     pkgs.go
     pkgs.inetutils
     pkgs.jq
