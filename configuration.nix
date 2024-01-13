@@ -1,11 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  nixpkgs.config = {
-    allowUnfree = true;
-    # more stuff
-  };
-  
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
@@ -42,6 +37,7 @@
     # virtualenv
     # vscode
     zoxide
+
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
     # ]))
@@ -54,10 +50,10 @@
   fonts = {
     fontDir.enable = true;
     fonts = [
-      pkgs.meslo-lgs-nf
+      meslo-lgs-nf
       # (pkgs.nerdfonts.override {
       #   fonts = [
-      #     "meslo-lgs-nf"
+      #     "FiraCode"
       #   ];
       # })
     ];
@@ -70,15 +66,14 @@
     taps = [
       { name = "kreuzwerker/taps"; }
     ];
-    # brews = [
-    #   "azure-cli"
-    #   "kreuzwerker/taps/m1-terraform-provider-helper"
-    #   "pyyaml"
-    # ];
-    # casks = [
-    #   "session-manager-plugin"
-    #   "visual-studio-code"
-    # ];
+    brews = [
+      "azure-cli"
+      "pyyaml"
+    ];
+    casks = [
+      "session-manager-plugin"
+      "visual-studio-code"
+    ];
   };
 
   system.defaults = {

@@ -1,5 +1,5 @@
 {
-  description = "Hoan's macOS setup";
+  description = "Khue's macOS setup";
 
   inputs = {
     nixpkgs = {
@@ -17,7 +17,7 @@
 
   outputs = { self, nixpkgs, darwin, home-manager }: {
     darwinConfigurations = {
-      "hlac-VM" = darwin.lib.darwinSystem {
+      "MacBook-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./configuration.nix
@@ -26,15 +26,15 @@
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
-      # "SDL-C715CYXQ92" = darwin.lib.darwinSystem {
-      #   system = "aarch64-darwin";
-      #   modules = [
-      #     ./configuration.nix
-      #     home-manager.darwinModules.home-manager
-      #     ./home/work.nix
-      #   ];
-      #   inputs = { inherit nixpkgs darwin home-manager; };
-      # };
+      "hlac-VM" = darwin.lib.darwinSystem {
+        system = "aarch64-darwin";
+        modules = [
+          ./configuration.nix
+          home-manager.darwinModules.home-manager
+          ./home/work.nix
+        ];
+        inputs = { inherit nixpkgs darwin home-manager; };
+      };
     };
   };
 }

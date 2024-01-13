@@ -9,7 +9,8 @@ in
 
   homebrew = {
     casks = [
-      # "brave-browser"
+      "brave-browser"
+      "royal-tsx"
     ];
   };
 
@@ -17,7 +18,7 @@ in
     useUserPackages = true;
     useGlobalPkgs = true;
     users.${username} = { pkgs, lib, ... }: {
-      home.stateVersion = "24.05";
+      home.stateVersion = "22.11";
       programs.home-manager.enable = true;
       # home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
       # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
