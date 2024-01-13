@@ -31,7 +31,7 @@
         modules = [
           ./configuration.nix
           home-manager.darwinModules.home-manager
-          ./home/work.nix
+          ./home/vm.nix
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };

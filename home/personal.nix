@@ -9,19 +9,40 @@ in
 
   homebrew = {
     casks = [
-      # "brave-browser"
+      "anydesk"
+      "evkey"
+      "istat-menus"
+      "kodi"
+      "lens"
+      "logi-options-plus"
+      "microsoft-edge"
+      "remote-desktop-manager"
+      "shottr"
+      "surfshark"
+      "telegram-desktop"
+      "vlc"
+      "whatsapp"
+      "zalo"
+      "zoom"
     ];
+    masApps = {
+      # Need to be signed into the Mac App Store
+      # "Bitwarden" = 1352778147;
+      # Azure VPN Client
+    };
   };
+
+  # TODO clean up
+  system.activationScripts.extraUserActivation.text = ''
+    sudo pmset -a lowpowermode 1
+  '';
 
   home-manager = {
     useUserPackages = true;
     useGlobalPkgs = true;
     users.${username} = { pkgs, lib, ... }: {
-      home.stateVersion = "24.05";
+      home.stateVersion = "22.11";
       programs.home-manager.enable = true;
-      # home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
-      # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
-      # home.file.".config/kitty/kitty.d/macos.conf".text = builtins.readFile ../files/kitty.conf;
       home.packages = with pkgs; [
         _1password-gui
         bartender
@@ -29,6 +50,7 @@ in
         keka
         kitty
         monitorcontrol
+        onedrive
         rectangle
         slack
         tailscale

@@ -9,8 +9,29 @@ in
 
   homebrew = {
     casks = [
-      "brave-browser"
-      "royal-tsx"
+      "1password"
+      "anydesk"
+      "bartender"
+      "evkey"
+      "istat-menus"
+      "iterm2"
+      "keka"
+      "kodi"
+      "lens"
+      "logi-options-plus"
+      "microsoft-edge"
+      "monitorcontrol"
+      "rectangle"
+      "remote-desktop-manager"
+      "shottr"
+      "slack"
+      "surfshark"
+      "tailscale"
+      "telegram-desktop"
+      "vlc"
+      "whatsapp"
+      "zalo"
+      "zoom"
     ];
   };
 
@@ -20,9 +41,6 @@ in
     users.${username} = { pkgs, lib, ... }: {
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
-      # home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
-      # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
-      # home.file.".config/kitty/kitty.d/macos.conf".text = builtins.readFile ../files/kitty.conf;
       home.packages = with pkgs; [
         pkgs._1password-gui
         pkgs.bartender

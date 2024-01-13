@@ -1,83 +1,59 @@
 { config, pkgs, ... }:
 
 {
-
+  # Nix configurations
   nixpkgs.config = {
     allowUnfree = true;
-    # more stuff
   };
 
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    # argocd
-    # aws-iam-authenticator
-    # awscli2
-    # bat
-    # colima
-    # docker
-    # docker-buildx
-    # docker-credential-helpers
-    # eksctl
-    # fzf
-    # go
-    # inetutils
-    # jq
-    # k9s
-    # kubectl
-    # kubectl
-    # kubectx
-    # kubelogin
-    # kubent
-    # kubernetes-helm
-    # kustomize
-    # neovim
-    # packer
-    # pyenv
-    # python313
-    # ripgrep
-    # ssm-session-manager-plugin
-    # terraform
-    # terragrunt
-    # tree
-    # virtualenv
-    # vscode
+    # Languages & Lib
     aria
-    bat
-    cargo
-    colima
-    curl
-    direnv
-    docker
-    fd
-    fzf
-    gh
-    git
     gnupg
     go
-    jq
+    pyenv
+    python313
+    virtualenv
+
+    # DevOps tools
+    argocd
+    colima
+    git
     k9s
     kubectl
     kubectl-tree
     kubectx
+    kubelogin
+    kubent
     kubernetes-helm
     kustomize
-    mosh
     neovim
-    nnn
-    nodePackages.npm
-    nodePackages.yarn
-    nodejs
-    pinentry
-    rbw
-    ripgrep
-    rust-analyzer
-    tmux
-    tree
-    unzip
-    watch
-    zoxide
+    packer
+    terraform
+    terragrunt
+    vscode
+
+    # AWS & Azure
+    aws-iam-authenticator
+    awscli2
+    azure-cli
+    eksctl
+    ssm-session-manager-plugin
+
+    # Utilities
+    bat
+    curl
     direnv
+    fd
+    fzf
+    gh
+    inetutils
+    iterm2
+    jq
+    ripgrep
+    tree
     zoxide
 
     # (pass.withExtensions (ext: with ext; [
@@ -109,12 +85,10 @@
       { name = "kreuzwerker/taps"; }
     ];
     brews = [
-      "azure-cli"
       "pyyaml"
     ];
     casks = [
-      "session-manager-plugin"
-      "visual-studio-code"
+
     ];
   };
 
