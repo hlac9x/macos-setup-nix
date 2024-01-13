@@ -10,11 +10,11 @@ in
   homebrew = {
     casks = [
       "1password"
+      "anydesk"
       "bartender"
       "evkey"
       "istat-menus"
       "iterm2"
-      "keka"
       "kitty"
       "kodi"
       "lens"
@@ -55,7 +55,7 @@ in
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
       home.packages = with pkgs; [
-        pkgs.upwork       
+        pkgs.keka       
       ];
     };
   };
