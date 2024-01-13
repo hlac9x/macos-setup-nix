@@ -105,6 +105,7 @@
       NSAutomaticPeriodSubstitutionEnabled = false;
       NSAutomaticQuoteSubstitutionEnabled = false;
       NSAutomaticSpellingCorrectionEnabled = false;
+      "com.apple.swipescrolldirection" = true;
     };
     CustomUserPreferences = {
       "com.apple.Safari" = {
@@ -121,8 +122,7 @@
   };
 
   services = {
-    karabiner-elements.enable = true;
-    tailscale.enable = true;
+
   };
 
   # Auto upgrade nix package and the daemon service.
