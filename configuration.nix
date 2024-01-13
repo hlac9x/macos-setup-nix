@@ -28,7 +28,6 @@
     terraform
     terragrunt
     tfswitch
-    tfenv
 
     # AWS & Azure
     aws-iam-authenticator
