@@ -82,6 +82,7 @@
       "pyyaml"
     ];
     casks = [
+      "alacritty"
       "visual-studio-code"
     ];
   };
