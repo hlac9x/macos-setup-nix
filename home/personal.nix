@@ -44,16 +44,16 @@ in
     users.${username} = { pkgs, lib, ... }: {
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
-      home.packages = with pkgs; [
-        _1password-gui
-        bartender
-        iterm2
-        keka
-        kitty
-        monitorcontrol
-        rectangle
-        slack
-        tailscale
+      home.packages = [
+        pkgs._1password-gui
+        pkgs.bartender
+        pkgs.iterm2
+        pkgs.keka
+        pkgs.kitty
+        pkgs.monitorcontrol
+        pkgs.rectangle
+        pkgs.slack
+        pkgs.tailscale
       ];
     };
   };
