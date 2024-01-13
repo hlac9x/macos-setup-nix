@@ -8,10 +8,9 @@ in
   users.users.${username}.home = "/Users/${username}";
 
   homebrew = {
-    # casks = [
-    #   "diffusionbee"
-    #   "firefox"
-    # ];
+    casks = [
+      "vscode"
+    ];
     masApps = {
       # Need to be signed into the Mac App Store
       # "Bitwarden" = 1352778147;
