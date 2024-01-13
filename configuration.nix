@@ -25,7 +25,6 @@
     kubelogin
     kubent
     kustomize
-    meslo-lgs-nf
     neovim
     packer
     pkgs.aws-iam-authenticator
@@ -55,11 +54,12 @@
   fonts = {
     fontDir.enable = true;
     fonts = [
-      (pkgs.nerdfonts.override {
-        fonts = [
-          "meslo-lgs-nf"
-        ];
-      })
+      meslo-lgs-nf
+      # (pkgs.nerdfonts.override {
+      #   fonts = [
+      #     "meslo-lgs-nf"
+      #   ];
+      # })
     ];
   };
 
