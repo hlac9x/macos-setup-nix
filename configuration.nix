@@ -142,7 +142,7 @@
     };
     config = {
       allowUnfree = true;
-    }
+    };
   };
 
   # Create /etc/zshrc that loads the nix-darwin environment.
