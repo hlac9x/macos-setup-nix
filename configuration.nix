@@ -9,8 +9,37 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    _1password-gui
+    argocd
+    pkgs.aws-iam-authenticator
+    awscli2
+    azure-cli
+    bat
+    docker
+    pkgs.docker-buildx
+    pkgs.docker-credential-helpers
+    eksctl
+    fzf-zsh
+    go
+    inetutils
+    jq
+    k9s
     kubectl
+    kubectl
+    kubectx
+    kubelogin
+    kubent
+    kubernetes-helm
+    kustomize
+    neovim
+    packer
+    pyenv
+    python313
+    ripgrep
+    terraform
+    terragrunt
+    tree
+    virtualenv
+    vscode
     zoxide
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
