@@ -9,7 +9,7 @@ in
 
   homebrew = {
     casks = [
-      _1password
+      "_1password"
       anydesk
       bartender
       colima
