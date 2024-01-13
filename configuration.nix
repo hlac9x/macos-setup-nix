@@ -9,39 +9,39 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    argocd
-    awscli2
-    bat
-    colima
-    docker
-    eksctl
-    go
-    inetutils
-    jq
-    k9s
-    kubectl
-    kubectl
-    kubectx
-    kubelogin
-    kubent
-    kustomize
-    neovim
-    packer
+    pkgs.argocd
     pkgs.aws-iam-authenticator
+    pkgs.awscli2
+    pkgs.bat
+    pkgs.colima
+    pkgs.docker
     pkgs.docker-buildx
     pkgs.docker-credential-helpers
+    pkgs.eksctl
     pkgs.fzf-zsh
+    pkgs.go
+    pkgs.inetutils
+    pkgs.jq
+    pkgs.k9s
+    pkgs.kubectl
+    pkgs.kubectl
+    pkgs.kubectx
+    pkgs.kubelogin
+    pkgs.kubent
     pkgs.kubernetes-helm
+    pkgs.kustomize
+    pkgs.neovim
+    pkgs.packer
+    pkgs.pyenv
+    pkgs.python313
+    pkgs.ripgrep
     pkgs.ssm-session-manager-plugin
-    pyenv
-    python313
-    ripgrep
-    terraform
-    terragrunt
-    tree
-    virtualenv
-    vscode
-    zoxide
+    pkgs.terraform
+    pkgs.terragrunt
+    pkgs.tree
+    pkgs.virtualenv
+    pkgs.vscode
+    pkgs.zoxide
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
     # ]))
@@ -69,10 +69,13 @@
     onActivation.cleanup = "zap";
     brews = [
       "azure-cli"
-      "m1-terraform-provider-helper"
+      "kreuzwerker/taps/m1-terraform-provider-helper"
       "pyyaml"
-      "visual-studio-code"
+      "ssm-session-manager-plugin"
     ];
+    casks = [
+      "visual-studio-code"
+    ]
   };
 
   system.defaults = {
