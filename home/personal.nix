@@ -16,6 +16,7 @@ in
       "lens"
       "logi-options-plus"
       "microsoft-edge"
+      "onedrive"
       "remote-desktop-manager"
       "shottr"
       "surfshark"
@@ -50,7 +51,6 @@ in
         keka
         kitty
         monitorcontrol
-        onedrive
         rectangle
         slack
         tailscale
