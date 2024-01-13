@@ -35,6 +35,7 @@ in
       # home.file.".config/kitty/kitty.d/macos.conf".text = builtins.readFile ../files/kitty.conf;
       home.packages = with pkgs; [
         azure-cli
+        terragrunt
       ];
     };
   };

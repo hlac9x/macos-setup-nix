@@ -9,8 +9,9 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    # _1password-gui
+    _1password-gui
     kubectl
+    zoxide
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
     # ]))
