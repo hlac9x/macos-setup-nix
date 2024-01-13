@@ -14,10 +14,8 @@ in
       "bartender"
       "evkey"
       "istat-menus"
-      "iterm2"
       "keka"
       "kodi"
-      "lens"
       "logi-options-plus"
       "microsoft-edge"
       "monitorcontrol"
@@ -43,15 +41,7 @@ in
       programs.home-manager.enable = true;
       home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
       home.packages = with pkgs; [
-        pkgs._1password-gui
-        pkgs.bartender
-        iterm2
-        keka
-        kitty
-        monitorcontrol
-        rectangle
-        slack
-        tailscale
+
       ];
     };
   };

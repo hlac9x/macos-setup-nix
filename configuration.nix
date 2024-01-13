@@ -13,7 +13,6 @@
     virtualenv
 
     # DevOps tools
-    argocd
     colima
     git
     k9s
@@ -28,6 +27,8 @@
     packer
     terraform
     terragrunt
+    tfswitch
+    tfenv
 
     # AWS & Azure
     aws-iam-authenticator
@@ -43,7 +44,6 @@
     fzf
     gh
     inetutils
-    iterm2
     jq
     ripgrep
     tree
@@ -80,6 +80,10 @@
     brews = [
       "azure-cli"
       "pyyaml"
+      "docker"
+      "docker-buildx"
+      "docker-completion"
+      "docker-credential-helper"
     ];
     casks = [
       "alacritty"
