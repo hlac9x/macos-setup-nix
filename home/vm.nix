@@ -18,6 +18,7 @@ in
       "kodi"
       "logi-options-plus"
       "microsoft-edge"
+      "microsoft-outlook"
       "monitorcontrol"
       "rectangle"
       "remote-desktop-manager"
