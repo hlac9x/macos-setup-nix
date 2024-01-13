@@ -128,6 +128,7 @@
   # Auto upgrade nix package and the daemon service.
   services.nix-daemon.enable = true;
 
+  # Nix setting
   nix = {
     # configureBuildUsers = true;
     settings = {
@@ -140,9 +141,11 @@
         "@admin"
       ];
     };
-    config = {
-      allowUnfree = true;
-    };
+  };
+
+  # Nix packages config
+  nixpkgs.config = {
+    allowUnfree = true;
   };
 
   # Create /etc/zshrc that loads the nix-darwin environment.
