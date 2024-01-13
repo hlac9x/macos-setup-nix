@@ -75,7 +75,7 @@
     ];
     casks = [
       "visual-studio-code"
-    ]
+    ];
   };
 
   system.defaults = {
