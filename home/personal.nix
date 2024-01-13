@@ -9,25 +9,16 @@ in
 
   homebrew = {
     casks = [
-      "1password"
       "anydesk"
-      "bartender"
       "evkey"
       "istat-menus"
-      "iterm2"
-      "kitty"
       "kodi"
       "lens"
       "logi-options-plus"
       "microsoft-edge"
-      "monitorcontrol"
-      "onedrive"
-      "rectangle"
       "remote-desktop-manager"
       "shottr"
-      "slack"
       "surfshark"
-      "tailscale"
       "telegram-desktop"
       "vlc"
       "whatsapp"
@@ -53,7 +44,16 @@ in
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
       home.packages = with pkgs; [
-        pkgs.keka       
+        _1password-gui
+        bartender
+        iterm2
+        keka
+        kitty
+        monitorcontrol
+        onedrive
+        rectangle
+        slack
+        tailscale
       ];
     };
   };
