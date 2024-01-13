@@ -9,39 +9,39 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
-    pkgs.argocd
-    pkgs.aws-iam-authenticator
-    pkgs.awscli2
-    pkgs.bat
-    pkgs.colima
-    pkgs.docker
-    pkgs.docker-buildx
-    pkgs.docker-credential-helpers
-    pkgs.eksctl
-    pkgs.fzf
-    pkgs.go
-    pkgs.inetutils
-    pkgs.jq
-    pkgs.k9s
-    pkgs.kubectl
-    pkgs.kubectl
-    pkgs.kubectx
-    pkgs.kubelogin
-    pkgs.kubent
-    pkgs.kubernetes-helm
-    pkgs.kustomize
-    pkgs.neovim
-    pkgs.packer
-    pkgs.pyenv
-    pkgs.python313
-    pkgs.ripgrep
-    pkgs.ssm-session-manager-plugin
-    pkgs.terraform
-    pkgs.terragrunt
-    pkgs.tree
-    pkgs.virtualenv
-    pkgs.vscode
-    pkgs.zoxide
+    # argocd
+    # aws-iam-authenticator
+    # awscli2
+    # bat
+    # colima
+    # docker
+    # docker-buildx
+    # docker-credential-helpers
+    # eksctl
+    # fzf
+    # go
+    # inetutils
+    # jq
+    # k9s
+    # kubectl
+    # kubectl
+    # kubectx
+    # kubelogin
+    # kubent
+    # kubernetes-helm
+    # kustomize
+    # neovim
+    # packer
+    # pyenv
+    # python313
+    # ripgrep
+    # ssm-session-manager-plugin
+    # terraform
+    # terragrunt
+    # tree
+    # virtualenv
+    # vscode
+    zoxide
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
     # ]))
@@ -70,15 +70,15 @@
     taps = [
       { name = "kreuzwerker/taps"; }
     ];
-    brews = [
-      "azure-cli"
-      "kreuzwerker/taps/m1-terraform-provider-helper"
-      "pyyaml"
-    ];
-    casks = [
-      "session-manager-plugin"
-      "visual-studio-code"
-    ];
+    # brews = [
+    #   "azure-cli"
+    #   "kreuzwerker/taps/m1-terraform-provider-helper"
+    #   "pyyaml"
+    # ];
+    # casks = [
+    #   "session-manager-plugin"
+    #   "visual-studio-code"
+    # ];
   };
 
   system.defaults = {

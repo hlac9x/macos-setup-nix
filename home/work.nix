@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 let
-  username = "hlac";
+  username = "hoanlac";
 in
 {
   # TODO https://github.com/LnL7/nix-darwin/issues/682
@@ -23,15 +23,15 @@ in
       # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
       # home.file.".config/kitty/kitty.d/macos.conf".text = builtins.readFile ../files/kitty.conf;
       home.packages = with pkgs; [
-        argocd
-        azure-cli
-        cmctl
-        istioctl
-        kubelogin
-        sops
-        terragrunt
-        tflint
-        yq-go
+        _1password-gui
+        bartender
+        iterm2
+        keka
+        kitty
+        monitorcontrol
+        rectangle
+        slack
+        tailscale
       ];
     };
   };
