@@ -34,9 +34,9 @@ in
   };
 
   # TODO clean up
-  # system.activationScripts.extraUserActivation.text = ''
-  #   sudo pmset -a lowpowermode 1
-  # '';
+  system.activationScripts.extraUserActivation.text = ''
+    sudo pmset -a lowpowermode 1
+  '';
 
   home-manager = {
     useUserPackages = true;
