@@ -33,12 +33,10 @@
     packer
     terraform
     terragrunt
-    vscode
 
     # AWS & Azure
     aws-iam-authenticator
     awscli2
-    azure-cli
     eksctl
     ssm-session-manager-plugin
 
@@ -85,10 +83,11 @@
       { name = "kreuzwerker/taps"; }
     ];
     brews = [
+      "azure-cli"
       "pyyaml"
     ];
     casks = [
-
+      "visual-studio-code"
     ];
   };
 
