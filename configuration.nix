@@ -163,7 +163,8 @@
   system.stateVersion = 4;
 
   # Network setting
+  networking.knownNetworkServices = [ "Wi-Fi" "Thunderbolt Ethernet" ];
   networking.dns = [ "8.8.8.8" "8.8.4.4" ];
 
-  
+
 }
