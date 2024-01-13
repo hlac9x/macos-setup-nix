@@ -39,7 +39,7 @@ in
     users.${username} = { pkgs, lib, ... }: {
       home.stateVersion = "22.11";
       programs.home-manager.enable = true;
-      home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
+      home.file.".config/alacritty/alacritty.toml".text = builtins.readFile ../files/alacritty.toml;
       home.packages = with pkgs; [
 
       ];
