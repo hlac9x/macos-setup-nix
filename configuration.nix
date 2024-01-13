@@ -72,7 +72,7 @@
     ];
     brews = [
       "azure-cli"
-      "m1-terraform-provider-helper"
+      "kreuzwerker/taps/m1-terraform-provider-helper"
       "pyyaml"
     ];
     casks = [
