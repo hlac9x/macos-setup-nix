@@ -42,7 +42,7 @@ in
     useUserPackages = true;
     useGlobalPkgs = true;
     users.${username} = { pkgs, lib, ... }: {
-      home.stateVersion = "22.11";
+      home.stateVersion = "23.05";
       programs.home-manager.enable = true;
       home.packages = with pkgs; [
         pkgs._1password-gui
