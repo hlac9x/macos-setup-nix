@@ -35,9 +35,9 @@
   homebrew = {
     enable = true;
     onActivation.cleanup = "zap";
-    taps = [
-      { name = "homebrew/cask"; }
-    ];
+    # taps = [
+    #   { name = "homebrew/cask"; }
+    # ];
     brews = [
       # m1-terraform-provider-helper
     ];
