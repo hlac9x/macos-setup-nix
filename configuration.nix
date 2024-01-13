@@ -25,6 +25,7 @@
     kubelogin
     kubent
     kustomize
+    meslo-lgs-nf
     neovim
     packer
     pkgs.aws-iam-authenticator
