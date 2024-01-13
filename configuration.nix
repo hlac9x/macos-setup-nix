@@ -10,15 +10,10 @@
   # $ nix-env -qaP | grep curl
   environment.systemPackages = with pkgs; [
     argocd
-    pkgs.aws-iam-authenticator
     awscli2
-    azure-cli
     bat
     docker
-    pkgs.docker-buildx
-    pkgs.docker-credential-helpers
     eksctl
-    fzf-zsh
     go
     inetutils
     jq
@@ -28,10 +23,15 @@
     kubectx
     kubelogin
     kubent
-    kubernetes-helm
     kustomize
     neovim
     packer
+    pkgs.aws-iam-authenticator
+    pkgs.docker-buildx
+    pkgs.docker-credential-helpers
+    pkgs.fzf-zsh
+    pkgs.kubernetes-helm
+    pkgs.ssm-session-manager-plugin
     pyenv
     python313
     ripgrep
@@ -69,6 +69,7 @@
     #   { name = "homebrew/cask"; }
     # ];
     brews = [
+      azure-cli
       # m1-terraform-provider-helper
     ];
   };
