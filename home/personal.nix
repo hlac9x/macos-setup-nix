@@ -28,7 +28,7 @@ in
     useUserPackages = true;
     useGlobalPkgs = true;
     users.${username} = { pkgs, lib, ... }: {
-      home.stateVersion = "23.11";
+      home.stateVersion = "22.11";
       programs.home-manager.enable = true;
       # home.file.".config/alacritty/alacritty.yml".text = builtins.readFile ../files/alacritty.yml;
       # home.file.".config/karabiner/karabiner.json".text = builtins.readFile ../files/karabiner.json;
