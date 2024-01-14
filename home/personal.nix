@@ -10,6 +10,7 @@ in
   homebrew = {
     casks = [
       "1password"
+      "adguard"
       "anydesk"
       "bartender"
       "evkey"
