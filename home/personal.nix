@@ -12,6 +12,7 @@ in
       # Need to be signed into the Mac App Store
       "Telegram" = 747648890;
       "Microsoft To Do" = 1274495053;
+      "Microsoft Outlook" = 985367838;
     };
     casks = [
       "1password"
@@ -24,7 +25,6 @@ in
       "kodi"
       "logi-options-plus"
       "microsoft-edge"
-      "microsoft-outlook"
       "monitorcontrol"
       "onedrive"
       "rectangle"
