@@ -8,6 +8,11 @@ in
   users.users.${username}.home = "/Users/${username}";
 
   homebrew = {
+    masApps = {
+      # Need to be signed into the Mac App Store
+      "Telegram" = 747648890;
+      "Microsoft To Do" = 1274495053;
+    };
     casks = [
       "1password"
       "adguard"
