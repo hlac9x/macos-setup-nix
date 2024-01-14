@@ -25,6 +25,7 @@ in
       "kodi"
       "logi-options-plus"
       "microsoft-edge"
+      "messenger"
       "monitorcontrol"
       "onedrive"
       "rectangle"
