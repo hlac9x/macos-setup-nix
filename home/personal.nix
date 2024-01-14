@@ -34,7 +34,7 @@ in
       "slack"
       "surfshark"
       "tailscale"
-      # "utm"
+      "utm"
       "vlc"
       "whatsapp"
       "zalo"
