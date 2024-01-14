@@ -10,27 +10,8 @@ in
   homebrew = {
     casks = [
       "1password"
-      "anydesk"
-      "bartender"
-      "evkey"
-      "istat-menus"
       "keka"
-      "kodi"
-      "logi-options-plus"
       "microsoft-edge"
-      "microsoft-outlook"
-      "monitorcontrol"
-      "rectangle"
-      "remote-desktop-manager"
-      "shottr"
-      "slack"
-      "surfshark"
-      "tailscale"
-      "telegram-desktop"
-      "vlc"
-      "whatsapp"
-      "zalo"
-      "zoom"
     ];
   };
 
@@ -44,6 +25,15 @@ in
       home.packages = with pkgs; [
 
       ];
+    };
+  };
+
+  system.defaults = {
+    dock = {
+      autohide = false;
+      minimize-to-application = true;
+      mru-spaces = false;
+      showhidden = true;
     };
   };
 }
