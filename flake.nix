@@ -26,7 +26,7 @@
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
-      "hlac-VM" = darwin.lib.darwinSystem {
+      "hlac-vm" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./configuration.nix
