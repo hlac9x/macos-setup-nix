@@ -19,6 +19,7 @@ in
       "adguard"
       "anydesk"
       "bartender"
+      "clickup"
       "evkey"
       "istat-menus"
       "keka"
