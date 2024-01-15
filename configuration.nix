@@ -46,7 +46,6 @@
     jq
     ripgrep
     tree
-    zoxide
 
     # (pass.withExtensions (ext: with ext; [
     #   pass-otp
