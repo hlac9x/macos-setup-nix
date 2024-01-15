@@ -35,7 +35,6 @@ in
       "shottr"
       "slack"
       "surfshark"
-      "tailscale"
       "utm"
       "vlc"
       "whatsapp"

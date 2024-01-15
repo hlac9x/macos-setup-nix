@@ -117,7 +117,7 @@
   };
 
   services = {
-
+    tailscale.enable = true;
   };
 
   # Auto upgrade nix package and the daemon service.
