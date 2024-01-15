@@ -80,6 +80,8 @@
     ];
   };
 
+  time.timeZone = "Asia/Bangkok";
+  
   system.defaults = {
     alf = {
       globalstate = 1;
@@ -92,6 +94,7 @@
       AppleInterfaceStyle = "Dark";
       AppleKeyboardUIMode = 3;
       ApplePressAndHoldEnabled = false;
+      AppleEnableSwipeNavigateWithScrolls = true;
       NSAutomaticCapitalizationEnabled = false;
       NSAutomaticDashSubstitutionEnabled = false;
       NSAutomaticPeriodSubstitutionEnabled = false;
