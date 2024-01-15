@@ -79,8 +79,6 @@
       "visual-studio-code"
     ];
   };
-
-  time.timeZone = "Asia/Bangkok";
   
   system.defaults = {
     alf = {
