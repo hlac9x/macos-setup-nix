@@ -10,6 +10,7 @@
 ## Usage
 
 - Change the hostname and username in `./flake.nix` and `./home/*.nix`
+- Don't turn on `FileVault` before install Nix
 - Go to **Settings -> Security & Privacy -> Privacy -> Full Disk Access** and allow the Terminal app
 
 ```sh
