@@ -27,6 +27,7 @@ in
       "logi-options-plus"
       "messenger"
       "microsoft-edge"
+      "microsoft-teams"
       "monitorcontrol"
       "onedrive"
       "rectangle"

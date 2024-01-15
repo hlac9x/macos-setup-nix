@@ -46,10 +46,6 @@
     jq
     ripgrep
     tree
-
-    # (pass.withExtensions (ext: with ext; [
-    #   pass-otp
-    # ]))
   ];
 
   environment.systemPath = [
@@ -60,11 +56,6 @@
     fontDir.enable = true;
     fonts = [
       pkgs.meslo-lgs-nf
-      # (pkgs.nerdfonts.override {
-      #   fonts = [
-      #     "FiraCode"
-      #   ];
-      # })
     ];
   };
 
@@ -163,6 +154,5 @@
   # Network setting
   networking.knownNetworkServices = [ "Wi-Fi" "Ethernet" ];
   networking.dns = [ "8.8.8.8" "8.8.4.4" ];
-
 
 }
