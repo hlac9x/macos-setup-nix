@@ -84,7 +84,10 @@
     alf = {
       globalstate = 1;
     };
-    
+    finder = {
+      ShowStatusBar = true;
+      ShowPathbar = true;
+    };
     NSGlobalDomain = {
       AppleInterfaceStyle = "Dark";
       AppleKeyboardUIMode = 3;
