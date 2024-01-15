@@ -94,12 +94,7 @@
     alf = {
       globalstate = 1;
     };
-    dock = {
-      autohide = true;
-      minimize-to-application = true;
-      mru-spaces = false;
-      showhidden = true;
-    };
+    
     NSGlobalDomain = {
       AppleInterfaceStyle = "Dark";
       AppleKeyboardUIMode = 3;
