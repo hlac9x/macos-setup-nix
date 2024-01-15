@@ -5,7 +5,7 @@
 - Install [Nix](https://nixos.org/download.html#nix-install-macos), [nix-darwin](https://github.com/LnL7/nix-darwin), [home-manager](https://github.com/nix-community/home-manager) and [Homebrew](https://brew.sh)
 - Install CLI and GUI apps
 - Change system settings
-- Install [my dotfiles](https://github.com/khuedoan/dotfiles)
+- Install [my dotfiles](https://github.com/hlac9x/dotfiles)
 
 ## Usage
 
