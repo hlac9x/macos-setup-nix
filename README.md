@@ -14,7 +14,7 @@
 - Go to **Settings -> Security & Privacy -> Privacy -> Full Disk Access** and allow the Terminal app
 
 ```sh
-git clone https://github.com/khuedoan/macos-setup macos-setup
+git clone https://github.com/hlac9x/macos-setup-nix macos-setup
 cd macos-setup
 make
 ```
