@@ -9,7 +9,6 @@
     gnupg
     go
     pyenv
-    python313
     virtualenv
 
     # DevOps tools
@@ -46,6 +45,7 @@
     jq
     ripgrep
     tree
+
   ];
 
   environment.systemPath = [
@@ -67,19 +67,24 @@
       { name = "kreuzwerker/taps"; }
     ];
     brews = [
+      "ansible"
       "azure-cli"
-      "pyyaml"
-      "docker"
       "docker-buildx"
       "docker-completion"
       "docker-credential-helper"
+      "docker"
+      "python-boto3"
+      "python-botocore"
+      "python"
+      "pyyaml"
     ];
     casks = [
       "alacritty"
+      "remote-desktop-manager"
       "visual-studio-code"
     ];
   };
-  
+
   system.defaults = {
     alf = {
       globalstate = 1;
@@ -87,7 +92,7 @@
     finder = {
       ShowStatusBar = true;
       ShowPathbar = true;
-    };
+    };    
     NSGlobalDomain = {
       AppleInterfaceStyle = "Dark";
       AppleKeyboardUIMode = 3;
@@ -158,5 +163,6 @@
   # Network setting
   networking.knownNetworkServices = [ "Wi-Fi" "Ethernet" ];
   networking.dns = [ "8.8.8.8" "8.8.4.4" ];
+
 
 }
