@@ -29,6 +29,7 @@ in
       "microsoft-edge"
       "microsoft-teams"
       "monitorcontrol"
+      "notion"
       "onedrive"
       "rectangle"
       "remote-desktop-manager"
