@@ -16,7 +16,7 @@
 ```sh
 git clone https://github.com/hlac9x/macos-setup-nix macos-setup
 cd macos-setup
-make
+make 
 ```
 
 Then reboot.
