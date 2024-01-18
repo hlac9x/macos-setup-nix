@@ -8,6 +8,13 @@ in
   users.users.${username}.home = "/Users/${username}";
 
   homebrew = {
+    brews = [
+      "docker-buildx"
+      "docker-completion"
+      "docker-compose"
+      "docker-credential-helper"
+      "docker"
+    ];
     masApps = {
       # Need to be signed into the Mac App Store
       "Telegram" = 747648890;

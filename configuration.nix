@@ -69,10 +69,6 @@
     brews = [
       "ansible"
       "azure-cli"
-      "docker-buildx"
-      "docker-completion"
-      "docker-credential-helper"
-      "docker"
       "python-boto3"
       "python-botocore"
       "python"
