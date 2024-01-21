@@ -38,6 +38,7 @@ in
       "monitorcontrol"
       "notion"
       "onedrive"
+      "orbstack"
       "rectangle"
       "remote-desktop-manager"
       "shottr"

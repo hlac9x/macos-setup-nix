@@ -12,7 +12,6 @@
     virtualenv
 
     # DevOps tools
-    colima
     git
     k9s
     kubectl
