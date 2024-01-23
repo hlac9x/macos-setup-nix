@@ -70,7 +70,7 @@
       "azure-cli"
       "python-boto3"
       "python-botocore"
-      "python"
+      "python@3.11"
       "pyyaml"
     ];
     casks = [
