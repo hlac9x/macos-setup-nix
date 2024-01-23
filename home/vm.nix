@@ -34,6 +34,7 @@ in
       minimize-to-application = true;
       mru-spaces = false;
       showhidden = true;
+      tilesize = 50;
     };
   };
 }
