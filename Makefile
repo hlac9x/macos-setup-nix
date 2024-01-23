@@ -29,4 +29,4 @@ build: /nix /run/current-system/sw/bin/darwin-rebuild /opt/homebrew/bin/brew ~/.
 	./result/sw/bin/darwin-rebuild switch --flake .
 
 update:
-	nix flake update && brew update --auto-update
+	nix flake update && brew upgrade
