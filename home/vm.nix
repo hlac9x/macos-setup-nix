@@ -12,6 +12,7 @@ in
       "1password"
       "keka"
       "microsoft-edge"
+      "surfshark"
     ];
   };
 
