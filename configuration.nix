@@ -42,6 +42,7 @@
     gh
     inetutils
     jq
+    mkcert
     ripgrep
     tree
 
