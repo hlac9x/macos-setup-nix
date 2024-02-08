@@ -29,6 +29,7 @@ in
       "clickup"
       "evkey"
       "istat-menus"
+      "lens"
       "keka"
       "kodi"
       "logi-options-plus"
