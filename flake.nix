@@ -1,5 +1,5 @@
 {
-  description = "Khue's macOS setup";
+  description = "Hoan's macOS setup";
 
   inputs = {
     nixpkgs = {
@@ -26,12 +26,12 @@
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
-      "hlac-vm" = darwin.lib.darwinSystem {
+      "SGN-MHJ2CHKJ7K" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./configuration.nix
           home-manager.darwinModules.home-manager
-          ./home/vm.nix
+          ./home/axon.nix
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
