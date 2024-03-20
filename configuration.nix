@@ -69,8 +69,6 @@
     brews = [
       "ansible"
       "azure-cli"
-      "python-boto3"
-      "python-botocore"
       "python@3.11"
       "pyyaml"
     ];
