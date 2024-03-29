@@ -23,9 +23,7 @@
     kustomize
     neovim
     packer
-    terraform
-    terragrunt
-    tfswitch
+
 
     # AWS & Azure
     aws-iam-authenticator
@@ -71,6 +69,9 @@
       "azure-cli"
       "python@3.11"
       "pyyaml"
+      "tfenv"
+      "terraform"
+      "terragrunt"
     ];
     casks = [
       "alacritty"
