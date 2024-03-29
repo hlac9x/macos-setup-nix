@@ -71,9 +71,7 @@
       "python@3.11"
       "pyyaml"
       "tfenv"
-      "terraform"
-      "terragrunt"
-      "tgswitch"
+      "tgenv"
     ];
     casks = [
       "alacritty"
