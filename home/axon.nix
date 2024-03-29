@@ -24,7 +24,6 @@ in
       "monitorcontrol"
       "notion"
       "openlens"
-      "orbstack"
       "rectangle"
       "remote-desktop-manager"
       "shottr"
