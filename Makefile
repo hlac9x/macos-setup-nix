@@ -30,4 +30,3 @@ build: /nix /run/current-system/sw/bin/darwin-rebuild /opt/homebrew/bin/brew ~/.
 
 update:
 	nix flake update && brew upgrade
-
