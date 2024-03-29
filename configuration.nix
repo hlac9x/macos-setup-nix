@@ -63,6 +63,7 @@
     onActivation.cleanup = "zap";
     taps = [
       { name = "kreuzwerker/taps"; }
+      { name = "warrensbox/tap"; }
     ];
     brews = [
       "ansible"
@@ -72,6 +73,7 @@
       "tfenv"
       "terraform"
       "terragrunt"
+      "tgswitch"
     ];
     casks = [
       "alacritty"
