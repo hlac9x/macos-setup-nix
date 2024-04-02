@@ -68,6 +68,7 @@
     brews = [
       "ansible"
       "azure-cli"
+      "git-lfs"
       "python@3.11"
       "pyyaml"
       "tfenv"
