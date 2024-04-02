@@ -23,7 +23,7 @@
     kustomize
     neovim
     packer
-
+    sops
 
     # AWS & Azure
     aws-iam-authenticator
@@ -78,6 +78,7 @@
       "alacritty"
       "remote-desktop-manager"
       "visual-studio-code"
+      "gpg-suite"
     ];
   };
 
