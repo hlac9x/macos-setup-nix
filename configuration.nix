@@ -64,6 +64,7 @@
     taps = [
       { name = "kreuzwerker/taps"; }
       { name = "warrensbox/tap"; }
+      { name = "robscott/tap"; }
     ];
     brews = [
       "ansible"
@@ -73,6 +74,7 @@
       "pyyaml"
       "tfenv"
       "tgenv"
+      "robscott/tap/kube-capacity"
     ];
     casks = [
       "alacritty"
