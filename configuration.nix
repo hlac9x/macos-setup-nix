@@ -63,8 +63,9 @@
     onActivation.cleanup = "zap";
     taps = [
       { name = "kreuzwerker/taps"; }
-      { name = "warrensbox/tap"; }
       { name = "robscott/tap"; }
+      { name = "robusta-dev/homebrew-krr"; }
+      { name = "warrensbox/tap"; }
     ];
     brews = [
       "ansible"
@@ -72,9 +73,11 @@
       "git-lfs"
       "python@3.11"
       "pyyaml"
+      "robscott/tap/kube-capacity"
+      "robusta-dev/homebrew-krr/krr"
+      "terraform-docs/tap/terraform-docs"
       "tfenv"
       "tgenv"
-      "robscott/tap/kube-capacity"
     ];
     casks = [
       "alacritty"
