@@ -75,7 +75,7 @@
       "pyyaml"
       "robscott/tap/kube-capacity"
       "robusta-dev/homebrew-krr/krr"
-      "terraform-docs/tap/terraform-docs"
+      "terraform-docs"
       "tfenv"
       "tgenv"
     ];
