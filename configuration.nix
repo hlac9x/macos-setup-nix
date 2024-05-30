@@ -71,6 +71,8 @@
       "ansible"
       "azure-cli"
       "git-lfs"
+      "helm-docs"
+      "pre-commit"
       "python@3.11"
       "pyyaml"
       "robscott/tap/kube-capacity"
