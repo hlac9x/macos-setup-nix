@@ -62,6 +62,7 @@
     enable = true;
     onActivation.cleanup = "zap";
     taps = [
+      { name = "buildpacks/tap"; }
       { name = "kreuzwerker/taps"; }
       { name = "robscott/tap"; }
       { name = "robusta-dev/homebrew-krr"; }
@@ -70,6 +71,7 @@
     brews = [
       "ansible"
       "azure-cli"
+      "buildpacks/tap/pack"
       "git-lfs"
       "helm-docs"
       "pre-commit"
