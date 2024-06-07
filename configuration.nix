@@ -6,6 +6,7 @@
   environment.systemPackages = with pkgs; [
     # Languages & Lib
     aria
+    coreutils
     gnupg
     go
     pyenv
@@ -66,6 +67,7 @@
       { name = "kreuzwerker/taps"; }
       { name = "robscott/tap"; }
       { name = "robusta-dev/homebrew-krr"; }
+      { name = "terraform-docs/tap"; }
       { name = "warrensbox/tap"; }
     ];
     brews = [

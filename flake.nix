@@ -26,7 +26,7 @@
         ];
         inputs = { inherit nixpkgs darwin home-manager; };
       };
-      "SGN-MHJ2CHKJ7K" = darwin.lib.darwinSystem {
+      "AS-MHJ2CHKJ7K" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
           ./configuration.nix
