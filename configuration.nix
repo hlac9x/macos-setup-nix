@@ -51,12 +51,12 @@
     config.homebrew.brewPrefix # TODO https://github.com/LnL7/nix-darwin/issues/596
   ];
 
-  fonts = {
-    fontDir.enable = true;
-    fonts = [
-      pkgs.meslo-lgs-nf
-    ];
-  };
+  # fonts.packages = {
+  #   fontDir.enable = true;
+  #   fonts = [
+  #     pkgs.meslo-lgs-nf
+  #   ];
+  # };
 
   # Homebrew packages
   homebrew = {
@@ -76,6 +76,7 @@
       "buildpacks/tap/pack"
       "git-lfs"
       "helm-docs"
+      "kubecolor"
       "pre-commit"
       "python@3.11"
       "pyyaml"
@@ -128,7 +129,7 @@
   };
 
   services = {
-    tailscale.enable = true;
+    tailscale.enable = false;
   };
 
   # Auto upgrade nix package and the daemon service.
